@@ -1,0 +1,25 @@
+<div class="pre-footer">
+	<span>{{>icons/blog/footer}}</span>
+	<p class="pre-footer-text">
+		<a href="https://aragon.one/" target="_blank" class="pink">Aragon One</a> is a company that encompasses the foundational team working on the <a href="https://aragon.org/" target="_blank" class="pink">Aragon Project</a>
+	</p>
+</div>
+<footer class="section-footer">
+	<div class="footer-wrap wrap flex footer-last-container">
+		<div class="flex">
+			<div class="footer-copyright">
+				<span>
+					<a href="{{@blog.url}}">{{@blog.title}}</a>.</span>
+				</span>
+			</div>
+		</div>
+		<div class="flex media-links">
+			<a href="{{@blog.url}}">LATEST POST</a>
+			{{#if @blog.twitter}}
+			<a href="{{twitter_url}}" target="_blank">TWITTER</a>
+			{{/if}}
+			{{{t "{ghostlink}" ghostlink="<a href=\"https://aragon.org\" target=\"_blank\">WEBSITE</a>"}}}
+			<a href="https://aragon.chat/" target="_blank">CHAT</a>
+		</div>
+	</div>
+</footer>

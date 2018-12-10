@@ -1,0 +1,9 @@
+{{!< default}}
+{{#post}}
+{{>featured}}
+<div class="section-post wrap">
+	<div class="post-wrap {{^if feature_image}}no-image{{/if}}">
+		{{content}}
+	</div>
+</div>
+{{/post}}

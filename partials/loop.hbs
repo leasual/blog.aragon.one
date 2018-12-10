@@ -1,0 +1,36 @@
+<div class="section-loop wrap {{#is "home"}}{{#get "posts" limit="1" filter="featured:true+page:[true,false]"}}{{#foreach posts}}is-featured{{else}}no-featured{{/foreach}}{{/get}}{{/is}}">
+	<div class="items-wrap flex">
+		{{#foreach posts}}
+		<div class="item-wrap flex {{post_class}} {{#if feature_image}}is-image{{else}}tag-hash-red{{/if}}">
+			<article>
+				<a href="{{url}}" class="item-link-overlay"></a>
+				{{#if feature_image}}
+				<div class="item-image" style="background-image: url({{feature_image}})"></div>
+				{{/if}}
+				<h2><a href="{{url}}" class="white">{{title}}</a></h2>
+				<span class="primary-tag loop-tag display-flex">
+					<ul class="author-list">
+						{{#foreach authors}}
+								<li class="author-list-item">
+										<div class="author-name-tooltip">
+												{{name}}
+										</div>
+										{{#if profile_image}}
+												<a href="{{url}}" class="static-avatar"><img class="author-profile-image" src="{{profile_image}}" alt="{{name}}" /></a>
+										{{else}}
+												<a href="{{url}}" class="static-avatar author-profile-image">{{> "icons/avatar"}}</a>
+										{{/if}}
+								</li>
+						{{/foreach}}
+					</ul>
+					<span>
+						{{#primary_tag}}
+							<a class="white" href="{{url}}">{{name}}</a>
+						{{/primary_tag}}
+					</span>
+				</span>
+			</article>
+		</div>
+		{{/foreach}}
+	</div>
+</div>

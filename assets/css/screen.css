@@ -4101,3 +4101,8 @@ img.author-profile-image {
     min-height: 630px;
   }
 }
+
+/* Subscribe form */
+.subscribe-wrap .ityped {
+  max-width: none !important;
+}

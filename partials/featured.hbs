@@ -30,7 +30,7 @@
 				{{else}}
 				{{authors}}
 				{{/has}} -->
-				<time datetime="{{date format="YYYY-MM-DD"}}">{{date published_at timeago="true"}}</time>
+				<time datetime="{{date format="YYYY-MM-DD"}}">{{date published_at}}</time>
 				{{#is "post"}}
 				<span class="reading-time">{{>icons/blog/stopwatch}} {{reading_time minute=(t "1 min read") minutes=(t "% min read")}}<span>
 					{{/is}}

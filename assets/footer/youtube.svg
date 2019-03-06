@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="29px" viewBox="0 0 40 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>youtube</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F9836D" offset="0%"></stop>
+            <stop stop-color="#F46F85" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="youtube" fill="url(#linearGradient-1)">
+            <path d="M31.6925126,0 L8.3074874,0 C3.71938456,0 0,3.81070824 0,8.5114648 L0,20.4885352 C0,25.1892918 3.71938456,29 8.3074874,29 L31.6925126,29 C36.2806154,29 40,25.1892918 40,20.4885352 L40,8.5114648 C40,3.81070824 36.2806154,0 31.6925126,0 Z M26.0742168,15.0827274 L15.1362795,20.4275511 C14.8448268,20.5699659 14.5081681,20.3522543 14.5081681,20.0214643 L14.5081681,8.9977377 C14.5081681,8.66223606 14.8536771,8.44479118 15.1457372,8.59645143 L26.0836744,14.2753544 C26.4088798,14.444172 26.4032399,14.9219995 26.0742168,15.0827274 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

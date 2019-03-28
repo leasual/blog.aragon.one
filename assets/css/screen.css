@@ -654,7 +654,7 @@ a:focus {
 /* Title
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .featured-wrap h2 {
-    font-size: 54px;
+    font-size: 52px;
     font-weight: 700;
     line-height: 1.2;
     padding-top: 20px;
@@ -934,7 +934,6 @@ a:focus {
     .featured-image {
         left: 0;
         width: 100%;
-        margin-bottom: 15px;
         border-radius: 26px;
     }
 
@@ -1327,9 +1326,10 @@ div.section-featured.no-featured-image {
 .primary-tag {
     position: absolute;
     z-index: 2;
-    bottom: 40px;
+    bottom: 20px;
     margin-left: -8px;
     padding: 4px 8px;
+    align-items: center;
     background-color: transparent;
 }
 .loop-tag, .loop-tag a {
@@ -4105,4 +4105,21 @@ img.author-profile-image {
 /* Subscribe form */
 .subscribe-wrap .ityped {
   max-width: none !important;
+}
+
+
+.section-featured-in-post .featured-wrap {
+  height: auto;
+}
+.section-featured-in-post .featured-image {
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.section-post {
+  margin: -3px auto 0;
+}
+
+
+.item-wrap article h2 {
+  margin: 5px 0 50px;
 }

@@ -34,8 +34,32 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-@import url('https://fontlibrary.org/face/hk-grotesk');
-@import url('https://fontlibrary.org/face/hkgrotesklight');
+
+@font-face {
+  font-family:'HankenGroteskRegular';
+  src: url('https://blog.aragon.one/assets/HKGrotesk-Regular.ttf');
+}
+
+@font-face {
+  font-family:'FontRegular';
+  src: url('https://blog.aragon.one/assets/HKGrotesk-Regular.ttf');
+}
+
+@font-face {
+  font-family:'HankenGroteskLight';
+  src: url('https://blog.aragon.one/assets/HKGrotesk-Light.ttf');
+}
+
+@font-face {
+  font-family:'SourceSansProRegular';
+  src: url('https://blog.aragon.one/assets/SourceSansVariable-Roman.ttf');
+}
+@font-face {
+  font-family:'SourceSansProSemiBold';
+  src: url('https://blog.aragon.one/assets/SourceSansPro-SemiBold.ttf');
+}
+
+
 body {
     font-family: 'HankenGroteskRegular', sans-serif;
     font-size: 18px;
@@ -81,6 +105,11 @@ h5 {
 
 h6 {
     font-size: 17px;
+}
+
+b, strong {
+  font-weight: 600;
+  font-family: 'SourceSansProSemiBold';
 }
 
 @media (max-width:479px) {
@@ -1333,7 +1362,7 @@ div.section-featured.no-featured-image {
     background-color: transparent;
 }
 .loop-tag, .loop-tag a {
-    font-family: 'HankenGroteskRegular';
+    font-family: 'HankenGroteskRegular', sans-serif;
     font-weight: bold;
     font-stretch: normal;
     line-height: 4;
@@ -1458,10 +1487,18 @@ div.section-featured.no-featured-image {
 .post-wrap {
     font-size: 19px;
     overflow: visible;
-    max-width: 950px;
+    max-width: 720px;
     margin: 0 auto;
     padding: 60px 85px 120px;
     color: black;
+}
+
+.post-wrap p, .post-wrap li {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: 'SourceSansProRegular', 'Source Sans Pro', sans-serif;
+  color: rgba(0,0,0,0.80)
 }
 
 .post-wrap a {
@@ -1471,6 +1508,18 @@ div.section-featured.no-featured-image {
 }
 .post-wrap li p {
     display: inline;
+}
+.post-wrap h1,
+.post-wrap h4,
+.post-wrap h5,
+.post-wrap h6 {
+  margin: 40px 0 0!important;
+}
+.post-wrap h2 {
+  margin: 45px 0 0!important;
+}
+.post-wrap h3 {
+  margin: 38px 0 0!important;
 }
 
 .post-meta {
@@ -1599,12 +1648,12 @@ p img ~ small a {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 blockquote {
     font-size: 28px;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 1.4;
     width: 90%;
-    margin: 5vh 0 5vh 0;
+    margin: 4vh 0 4vh 0;
     padding: 0px 20px;
-    border-left: 5px solid #f1f4f4;
+    border-left: 3px solid #f87b77;
 }
 
 blockquote p {

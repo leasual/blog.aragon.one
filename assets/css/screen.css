@@ -37,26 +37,26 @@ body {
 
 @font-face {
   font-family:'HankenGroteskRegular';
-  src: url('https://blog.aragon.one/assets/HKGrotesk-Regular.ttf');
+  src: url('/assets/HKGrotesk-Regular.ttf');
 }
 
 @font-face {
   font-family:'FontRegular';
-  src: url('https://blog.aragon.one/assets/HKGrotesk-Regular.ttf');
+  src: url('/assets/HKGrotesk-Regular.ttf');
 }
 
 @font-face {
   font-family:'HankenGroteskLight';
-  src: url('https://blog.aragon.one/assets/HKGrotesk-Light.ttf');
+  src: url('/assets/HKGrotesk-Light.ttf');
 }
 
 @font-face {
   font-family:'SourceSansProRegular';
-  src: url('https://blog.aragon.one/assets/SourceSansVariable-Roman.ttf');
+  src: url('/assets/SourceSansVariable-Roman.ttf');
 }
 @font-face {
   font-family:'SourceSansProSemiBold';
-  src: url('https://blog.aragon.one/assets/SourceSansPro-SemiBold.ttf');
+  src: url('/assets/SourceSansPro-SemiBold.ttf');
 }
 
 

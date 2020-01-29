@@ -1,5 +1,5 @@
 {
-    "name": "nurui-v5",
+    "name": "a1-blog-theme",
     "version": "1.4.2",
     "author": {
         "email": "hello@fueko.net"
@@ -8,6 +8,9 @@
         "posts_per_page": 8
     },
     "keywords": [
-        "ghost-theme"
+        "ghost-theme",
+        "aragon-one",
+        "aragon",
+        "dao"
     ]
 }
